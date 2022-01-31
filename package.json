@@ -1,0 +1,47 @@
+{
+  "name": "node-js-template",
+  "version": "1.0.0",
+  "description": "nodejs template",
+  "main": "index.js",
+  "private": true,
+  "engine": {
+    "node": ">=14.16.1",
+    "npm": ">=6.14.12"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "contributors": [
+    "stephendltg"
+  ],
+  "scripts": {
+    "test": "mocha --exit -t 10000 -R spec",
+    "lint": "npx standard --verbose | snazzy",
+    "lint:fix": "npx standard --fix",
+    "release": "standard-version",
+    "prerelease": "standard-version -- --prerelease",
+    "fix": "standard-version -- --release-as minor"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx commitlint --edit $1 & npm run lint"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "stephendltg",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.2.0",
+    "mocha-chai-jest-snapshot": "^1.1.3",
+    "simple-git-hooks": "^2.7.0",
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.4",
+    "standard-version": "^9.3.2",
+    "supertest": "^6.2.2",
+    "xml2json": "^0.12.0"
+  }
+}
