@@ -5,5 +5,5 @@
  * Environement var to test
  */
 module.exports.config = new Map([
-  'URI', 'https://google.com'
-]);
+  ['URI', 'https://google.com']
+])
