@@ -70,3 +70,12 @@ node-app
 - [git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Markdown all in one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [mermaid preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+
+### Package maintenance
+
+A modern cli tool that keeps your deps fresh
+
+```bash
+npx taze
+```
+
