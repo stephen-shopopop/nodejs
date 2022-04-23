@@ -62,7 +62,7 @@
     "rimraf": "^3.0.2",
     "simple-git-hooks": "^2.7.0",
     "snazzy": "^9.0.0",
-    "standard": "^16.0.4",
+    "standard": "^17.0.0",
     "standard-version": "^9.3.2",
     "supertest": "^6.2.2",
     "xml2json": "^0.12.0"
